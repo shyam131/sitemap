@@ -30,5 +30,12 @@ class PagesController < ApplicationController
   def why
      @title = "Why Here?"
   end
-
+  
+  def medhome
+      @title = "Medical School"
+   end
+   
+   def people
+       @title = "People"
+    end
 end

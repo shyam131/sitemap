@@ -1,23 +1,27 @@
 Sitemap::Application.routes.draw do
 
-
+    
   match '/about',   :to => 'pages#about'
 
   match '/ed',   :to => 'pages#ed'
   
-  match '/ed/medschool',   :to => 'pages#ed#medschool'
+    match '/medhome',  :to => 'pages#medhome'  
 
   match '/research',   :to => 'pages#research'
 
   match '/patient',   :to => 'pages#patient'
 
   match '/life',   :to => 'pages#life'
+  
+    match '/people',  :to => 'pages#people'
 
   match '/news',   :to => 'pages#news'
 
   match '/why',   :to => 'pages#why'
+  
 
   root :to => 'pages#home'
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -90,34 +90,39 @@ footer {
 footer nav {
   float: none;
 }
-/* Sub1 Navigation */
 
-sub1 {
+/* Primary 2 Navigation */
+
+primary2 {
+  float: right;
+}
+
+primary2 {
   background-color: white;
   padding: 0 0.7em;
   white-space: nowrap;
 }
 
-sub1 ul {
+primary2 ul {
   margin: 0;
   padding: 0;
 }
 
-sub1 ul li {
+primary2 ul li {
   list-style-type: none;
   display: inline-block;
   padding: 0.2em 0;
 }
 
-sub1 ul li a {
+primary2 ul li a {
   padding: 0 5px;
   font-weight: bold;
 }
 
-sub1 ul li a:visited {
+primary2 ul li a:visited {
   color: #09c;
 }
 
-sub1 ul li a:hover {
+primary2 ul li a:hover {
   text-decoration: underline;
 }
